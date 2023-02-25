@@ -1,0 +1,5 @@
+*.bat
+*.dis
+*.disable
+test.*
+package.*.json
