@@ -1,4 +1,4 @@
-const { PluginDataDir, axios, plugin, config, defaultConfig, BotConf, enablePlugin } = require('./lib/static/constants')
+const { PluginDataDir, axios, plugin, config, defaultConfig, BotConf, enablePlugin, updateMdImg } = require('./lib/static/constants')
 const { tools, MounteFunctions } = require('./lib/static/tools')
 const { commands } = require('./lib/commands/commands')
 const { languagesMgr } = require('./lib/mgr/mgr')
@@ -85,6 +85,8 @@ async function onMounted() {
     plugin.bot.sendPrivateMsg(plugin.mainAdmin, tools.fromatString(lang.mounted, lang.header, [(await MounteFunctions.getTotleDownloads(name, ' - ')), updateStatus ? `\n\n${updateStatus}` : ''], plugin)) // 提示消息
     config.config.updated.status = false
     tools.saveConfig(plugin, config, defaultConfig)
+
+    updateMdImg()
 
     plugin.onMessage((event, parmas) => hooker(event, parmas, plugin, lang, listener.main, config, defaultConfig, commands.report))
     plugin.onCmd(config.commands.bkw2.value, (event, parmas) => msgSender(event, parmas, plugin, lang, commands.bkw2, commands.report))
