@@ -1,5 +1,5 @@
 {
-    "name": "kivibot-plugin-bkw2",
+    "name": "pupbot-plugin-bkw2",
     "version": "0.1.15",
     "description": "更好的关键词回复2",
     "main": "index.js",
@@ -13,14 +13,14 @@
         "rebuild",
         "node.js",
         "javascript",
-        "kivibot",
-        "kivibot"
+        "pup",
+        "pupbot"
     ],
     "author": "爱喝牛奶の涛哥",
     "license": "GPL3.0/later",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zhuhansan666/kivibot-plugin-bkw2.git"
+        "url": "https://github.com/zhuhansan666/pupbot-plugin-bkw2.git"
     },
     "dependencies": {
         "express": "latest"
