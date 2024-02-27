@@ -3,10 +3,7 @@
 
 > 当前仍为公测版本 <br>
 > 推荐使用较为成熟的 [pupbot-better-keywords-rebuild](https://github.com/zhuhansan666/pupbot-plugin-better-keywords-rebuild) / [kivibot-better-keywords-rebuild](https://github.com/zhuhansan666/kivibot-plugin-better-keywords-rebuild) <br>
-> 发生bug请发在交流群或私信qq=3088420339
-
 [![npm-version](https://img.shields.io/npm/v/pupbot-plugin-bkw2?color=527dec&label=pupbot-plugin-bkw2&style=flat-square)](https://npm.im/pupbot-plugin-bkw2) [![dm](https://shields.io/npm/dm/pupbot-plugin-bkw2?style=flat-square)](https://npm.im/pupbot-plugin-bkw2)
-交流反馈群: <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=kYuPTlWnpv2JYpH_7PX_7Gct5A-CaLak&jump_from=webapi&authKey=xHpTweFarFYr878W2gFyyuWGoySD9eRacy150RDk8SOwJHaV6jXUYbcQ8UucDmTv">点击加入</a> 或者 群号: `652833880`
 
 ## 安装
 ```
